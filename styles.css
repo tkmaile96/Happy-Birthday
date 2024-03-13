@@ -1,0 +1,96 @@
+body{
+    font-family: monospace;
+    background-image:url(./Images/birthday);
+}
+#btn{
+    width: 100%;
+    background: #fff;
+    border:  2px solid #a8a602;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#btn:hover{
+    background: #a8a602;
+    color: #fff;
+}
+h1{
+    background: linear-gradient(gold, #fff);
+    text-align: center;
+}
+.container{
+    width: 45vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    overflow: hidden;
+    border: 20px solid #a8a602;
+    box-shadow: 10px 25px 30px #000;
+
+}
+audio{
+    background-color: #a8a602;
+    color: #a8a602;
+    width: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 10s infinite;
+}
+img{
+    width: 100%;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0%);
+    }
+    20%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translateX(-100%);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    35%{
+        transform: translateX(-200%);
+    }
+    40%{
+        transform: translateX(-200%);
+    }
+    45%{
+        transform: translateX(-300%);
+    }
+    50%{
+        transform: translateX(-300%);
+    }
+    55%{
+        transform: translateX(-400%);
+    }
+    60%{
+        transform: translateX(-400%);
+    }
+    70%{
+        transform: translateX(-500%);
+    }
+    75%{
+        transform: translateX(-500%);
+    }
+    80%{
+        transform: translateX(-600%);
+    }
+    85%{
+        transform: translateX(-600%);
+    }
+    90%{
+        transform: translateX(-700%);
+    }
+    100%{
+        transform: translateX(-700%);
+    }
+}
